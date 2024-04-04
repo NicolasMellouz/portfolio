@@ -2,7 +2,9 @@
   src: url('cat.ttf'); }
 
 body{
-    background-color: rgb(211, 211, 211);
+  background-image: url(fundoo.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;
@@ -40,7 +42,7 @@ button:active {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    background-color: #333;
+    background-color: #333333d6;
     border-radius: 15px;
     margin-left: 24px;
     margin-right: 24px;
